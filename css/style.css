@@ -19,3 +19,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+#divBall {
+    position: absolute;
+    cursor: pointer;
+}
