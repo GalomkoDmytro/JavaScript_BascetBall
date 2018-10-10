@@ -23,4 +23,57 @@ time, mark, audio, video {
 #divBall {
     position: absolute;
     cursor: pointer;
+    bottom: 5px;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
 }
+
+#ball {
+    width: 100%;
+    height: 100%;
+}
+
+#divBasket {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+}
+
+#basket {
+    width: 100%;
+    height: 100%;
+
+}
+
+#legalZone {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 150px;
+    height: 300px;
+    
+}
+
+#trhowZone{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 160px;
+    height: 200px;
+    
+}
+
+#scopeDiv {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+#scope {
+    font-size: 50px;
+}
+
